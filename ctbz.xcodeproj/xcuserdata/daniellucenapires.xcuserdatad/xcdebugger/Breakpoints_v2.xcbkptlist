@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ctbz/FirstViewController.swift"
-            timestampString = "572075801.21393"
+            timestampString = "572222428.578971"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "94"
-            endingLineNumber = "94"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
             landmarkName = "tappedMe(tapGestureRecognizer:)"
             landmarkType = "7">
          </BreakpointContent>

@@ -18,40 +18,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="q1" translatesAutoresizingMaskIntoConstraints="NO" id="E0l-lc-moE">
-                                <rect key="frame" x="10" y="50" width="110" height="110"/>
+                            <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E0l-lc-moE">
+                                <rect key="frame" x="0.0" y="40" width="125" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="q2" translatesAutoresizingMaskIntoConstraints="NO" id="xmP-rg-sT6">
-                                <rect key="frame" x="120" y="50" width="110" height="110"/>
+                            <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xmP-rg-sT6">
+                                <rect key="frame" x="125" y="40" width="125" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="q3" translatesAutoresizingMaskIntoConstraints="NO" id="Pj4-ct-M6X">
-                                <rect key="frame" x="230" y="50" width="110" height="110"/>
+                            <imageView userInteractionEnabled="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pj4-ct-M6X">
+                                <rect key="frame" x="250" y="40" width="125" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="q4" translatesAutoresizingMaskIntoConstraints="NO" id="RV0-yt-fcx">
-                                <rect key="frame" x="10" y="160" width="110" height="110"/>
+                            <imageView userInteractionEnabled="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RV0-yt-fcx">
+                                <rect key="frame" x="0.0" y="165" width="125" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" tag="5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="q5" translatesAutoresizingMaskIntoConstraints="NO" id="Ld4-cn-MP4">
-                                <rect key="frame" x="120" y="160" width="110" height="110"/>
+                            <imageView userInteractionEnabled="NO" tag="5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ld4-cn-MP4">
+                                <rect key="frame" x="125" y="165" width="125" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" tag="6" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="q6" translatesAutoresizingMaskIntoConstraints="NO" id="6yY-tF-8OV">
-                                <rect key="frame" x="230" y="160" width="110" height="110"/>
+                            <imageView userInteractionEnabled="NO" tag="6" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6yY-tF-8OV">
+                                <rect key="frame" x="250" y="165" width="125" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" tag="7" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="q7" translatesAutoresizingMaskIntoConstraints="NO" id="Fv2-sK-Vi9">
-                                <rect key="frame" x="10" y="270" width="110" height="110"/>
+                            <imageView userInteractionEnabled="NO" tag="7" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fv2-sK-Vi9">
+                                <rect key="frame" x="0.0" y="290" width="125" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" tag="8" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="q8" translatesAutoresizingMaskIntoConstraints="NO" id="v3c-MD-sp1">
-                                <rect key="frame" x="120" y="270" width="110" height="110"/>
+                            <imageView userInteractionEnabled="NO" tag="8" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v3c-MD-sp1">
+                                <rect key="frame" x="125" y="290" width="125" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" tag="9" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="q9" translatesAutoresizingMaskIntoConstraints="NO" id="GfF-sr-YJq">
-                                <rect key="frame" x="230" y="270" width="110" height="110"/>
+                            <imageView userInteractionEnabled="NO" tag="9" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GfF-sr-YJq">
+                                <rect key="frame" x="250" y="290" width="125" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -95,14 +95,5 @@
     </scenes>
     <resources>
         <image name="first" width="30" height="30"/>
-        <image name="q1" width="603" height="603"/>
-        <image name="q2" width="606" height="603"/>
-        <image name="q3" width="603" height="603"/>
-        <image name="q4" width="603" height="606"/>
-        <image name="q5" width="606" height="606"/>
-        <image name="q6" width="603" height="606"/>
-        <image name="q7" width="603" height="603"/>
-        <image name="q8" width="606" height="603"/>
-        <image name="q9" width="200" height="200"/>
     </resources>
 </document>

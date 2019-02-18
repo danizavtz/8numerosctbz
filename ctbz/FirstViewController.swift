@@ -58,6 +58,7 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         inicializacao();
+        loadImageFiles();
     }
     func inicializacao() -> Void {
         let tap1 = UITapGestureRecognizer(target: self, action: #selector(FirstViewController.tappedMe))
@@ -87,6 +88,30 @@ class FirstViewController: UIViewController {
         im8.isUserInteractionEnabled = true
         im9.addGestureRecognizer(tap9)
         im9.isUserInteractionEnabled = true
+    }
+    
+    func montarSequencia() -> [Int ] {
+        var numbers =  [] as [Int]
+        repeat {
+            var x = Int.random(in: 1...8)
+            if !numbers.contains(x) {
+                numbers.append(x)
+            }
+        } while numbers.count < 8
+        return numbers
+    }
+    
+    func loadImageFiles() -> Void {
+        let arr = montarSequencia()
+        im1.image = UIImage(named: "q\(arr[0])")
+        im2.image = UIImage(named: "q\(arr[1])")
+        im3.image = UIImage(named: "q\(arr[2])")
+        im4.image = UIImage(named: "q\(arr[3])")
+        im5.image = UIImage(named: "q\(arr[4])")
+        im6.image = UIImage(named: "q\(arr[5])")
+        im7.image = UIImage(named: "q\(arr[6])")
+        im8.image = UIImage(named: "q\(arr[7])")
+        im9.image = UIImage(named: "q9")
     }
     
     @objc func tappedMe(tapGestureRecognizer: UITapGestureRecognizer)
