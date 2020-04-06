@@ -41,10 +41,16 @@ class FirstViewController: UIViewController {
     @IBOutlet weak var im8: UIImageView!
     @IBOutlet weak var im9: UIImageView!
     
+    @IBAction func sadad(_ sender: Any) {
+        prepareForReuse()
+    }
+    
     @IBAction func embaralhar(_ sender: UIButton) {
-        print("embaralhar")
+        prepareForReuse()
+        loadImageFiles()
     }
     @IBAction func solucionar(_ sender: UIButton) {
+        prepareForReuse()
         im1.image = UIImage(named: "q1")
         im2.image = UIImage(named: "q2")
         im3.image = UIImage(named: "q3")
@@ -60,6 +66,18 @@ class FirstViewController: UIViewController {
         inicializacao();
         loadImageFiles();
     }
+    func prepareForReuse() -> Void {
+        im1.image = nil
+        im2.image = nil
+        im3.image = nil
+        im4.image = nil
+        im5.image = nil
+        im6.image = nil
+        im7.image = nil
+        im8.image = nil
+        im9.image = nil
+    }
+    
     func inicializacao() -> Void {
         let tap1 = UITapGestureRecognizer(target: self, action: #selector(FirstViewController.tappedMe))
         let tap2 = UITapGestureRecognizer(target: self, action: #selector(FirstViewController.tappedMe))
